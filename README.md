@@ -19,10 +19,9 @@ The implemented controller simultaneously stabilizes the robot's upward vertical
 
 ## Setup and Usage
 1. Open MATLAB and ensure the Control System Toolbox is installed. 
-2. Run the `balrob_params.m` script to load the robot parameters into the workspace.
+2. Run the `main.m` script to load all the parameters into the workspace.
 3. Open the main Simulink control model.
 4. Run the simulation to observe the balance restoration and step-response tracking.
-5. To deploy to hardware, open the deployment `.slx` model, ensure the Arduino is connected, and initiate the build process via the Simulink hardware interface.
 
 ## Authors
 * **Federico Saporiti**
