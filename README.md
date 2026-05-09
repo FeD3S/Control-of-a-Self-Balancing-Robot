@@ -26,4 +26,7 @@ The implemented controller simultaneously stabilizes the robot's upward vertical
 
 ## Authors
 * **Federico Saporiti**
-* *Collaborators:* Matteo Bino, Leonardo Luigi Pepe
+* **Davide Pillon**
+* **Leonardo Luigi Pepe**
+
+Control Systems Engineering
