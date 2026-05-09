@@ -1,0 +1,10 @@
+N = 3;
+fc = 0.35;
+Tc = 1/(fc*2*pi);
+C = Ts/(Tc+Ts);
+numSpeedFilter = 1/(N*Ts)*[1,0,0,-1];
+denSpeedFilter = [1,0,0,0];
+%numLPF = [C, 0];
+%denLPF = [1, -(1-C)];
+numLPF = [Ts];
+denLPF = [Tc, Ts-Tc];
